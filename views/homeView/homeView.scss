@@ -53,6 +53,7 @@
         width: 500px;
         height: 350px;
         margin-top: 26px;
+        cursor: pointer;
     }
 
     &-colors {
@@ -136,8 +137,13 @@
     &-swipper {
         display: flex;
         align-items: center;
-        gap: 64px;
+        gap: 45px;
         margin-top: 75px;
+
+        &-box {
+            display: flex;
+            gap: 16px;
+        }
 
         & span {
             font-family: "Poppins", sans-serif;
@@ -148,6 +154,16 @@
             text-transform: uppercase;
             text-align: center;
             color: #000;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s ease;
+            &.active {
+                background: #f09e3e;
+            }
         }
 
         &-left,
