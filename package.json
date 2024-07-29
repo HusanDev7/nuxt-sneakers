@@ -10,7 +10,7 @@
         "postinstall": "nuxt prepare"
     },
     "dependencies": {
-        "aos": "^2.3.4",
+        "@vueuse/motion": "^2.2.3",
         "nuxt": "^3.12.4",
         "vue": "latest"
     },

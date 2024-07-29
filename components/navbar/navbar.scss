@@ -2,42 +2,42 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+  
     &__logo {
-        border-radius: 0 0 15px 15px;
-        width: 95px;
-        height: 91px;
-        cursor: pointer;
-        background: #fe8d07;
-
-        & img {
-            width: 52px;
-            height: 18px;
-            margin: 37px 22px;
-        }
+      border-radius: 0 0 15px 15px;
+      width: 95px;
+      height: 91px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      & img {
+        width: 52px;
+        height: 18px;
+        margin: 37px 22px;
+      }
     }
-
+  
     &__icons {
-        display: flex;
-        align-items: center;
-        gap: 26px;
-
-        & img {
-            font-size: 20px;
-            cursor: pointer;
-        }
+      display: flex;
+      align-items: center;
+      gap: 26px;
+  
+      & img {
+        font-size: 20px;
+        cursor: pointer;
+      }
     }
-
+  
     &__list {
-        &-item {
-            font-family: "Barlow Condensed", sans-serif;
-            font-weight: 700;
-            font-size: 18px;
-            color: #1b1e28;
-
-            & a {
-                color: #1b1e28;
-            }
+      &-item {
+        font-family: "Barlow Condensed", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: #1b1e28;
+  
+        & a {
+          color: #1b1e28;
         }
+      }
     }
-}
+  }

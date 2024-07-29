@@ -19,7 +19,7 @@
         line-height: 100%;
         letter-spacing: 0.5em;
         text-align: center;
-        color: #fe8d07;
+        color: #fe8d07; // Этот цвет будет меняться динамически
         margin-top: -20px;
     }
 
@@ -28,7 +28,7 @@
         width: 450px;
         height: 450px;
         border-radius: 100%;
-        background: linear-gradient(180deg, #fe8d07 0%, rgba(254, 141, 7, 0) 68.75%);
+        background: linear-gradient(180deg, #fe8d07 0%, rgba(254, 141, 7, 0) 68.75%); // Этот градиент будет меняться динамически
         z-index: -1;
         margin-top: -50px;
     }
@@ -68,7 +68,7 @@
     &-blue {
         width: 16px;
         height: 15px;
-        background: #0779fe;
+        background: #0779fe; // Этот цвет будет меняться динамически
         border-radius: 100%;
         cursor: pointer;
     }
@@ -76,14 +76,15 @@
     &-red {
         width: 16px;
         height: 15px;
-        background: #e90125;
+        background: #e90125; // Этот цвет будет меняться динамически
         border-radius: 100%;
         cursor: pointer;
     }
+
     &-color {
         width: 16px;
         height: 15px;
-        background: #fe8d07;
+        background: #fe8d07; // Этот цвет будет меняться динамически
         border-radius: 100%;
         cursor: pointer;
         border: solid 3px rgba(254, 141, 7, 0.5);
@@ -101,7 +102,7 @@
                 width: 190px;
                 height: 42px;
                 box-shadow: 0 4px 40px 0 rgba(53, 130, 245, 0.24);
-                background: linear-gradient(225deg, #efa043 0%, #fe8d07 100%);
+                background: linear-gradient(225deg, #efa043 0%, #fe8d07 100%); // Этот градиент будет меняться динамически
                 font-family: "Poppins", sans-serif;
                 font-weight: 600;
                 font-size: 18px;
@@ -161,6 +162,7 @@
             align-items: center;
             justify-content: center;
             transition: background 0.3s ease;
+
             &.active {
                 background: #f09e3e;
             }
